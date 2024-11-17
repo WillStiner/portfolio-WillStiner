@@ -13,7 +13,3 @@ class Surface:
         """
         return self.rect
     
-def main():
-    surf = Surface("myimage.png", 6, 8, 10, 15)
-    print(surf)
-    

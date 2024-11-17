@@ -14,7 +14,4 @@ class Rectangle:
         return "(x : {self.x}, y : {self.y}) width: {self.width}, height: {self.height}".format(self=self) #got help from https://realpython.com/lessons/how-and-when-use-str/
     
     
-def main():
-    rect = Rectangle(6, 8, 10, 15)
-    print(rect)
     
