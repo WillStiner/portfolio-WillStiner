@@ -23,5 +23,4 @@ def main():
     cat_api.get()
     dog_api.get()
 
-
 main()
