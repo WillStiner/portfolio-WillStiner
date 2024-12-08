@@ -16,6 +16,9 @@ class Controller:
             c = Cloud()
             self.clouds.add(c)
         self.enemies = pygame.sprite.Group()
+        for _ in range(3):
+            e = Enemy()
+            self.enemies.add(e)
         
     def mainloop(self):
         self.player = self.p1
@@ -34,7 +37,9 @@ class Controller:
             #3. redraw
             self.clouds.draw()
             # you want to completely overlay the screen
-            self.background = pygame.image.load('assets/background.png'))
+            self.background = pygame.image.load('assets/{name}.png')
             self.screen.blit(self.background, (0, 0))
             #4. display
             
+            
+
